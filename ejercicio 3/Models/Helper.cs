@@ -8,33 +8,43 @@ namespace ejercicio_3.Models
 {
     internal class Helper
     {
-        
-        public static float TestMethod(int[][] matrix)
-        {
-            float sum = 0;
-            for (int column = 0; column < 4; column++)
-                for (int row = 0; row < 3; row++)
-                {
-                    if (matrix[row][column] != 0)
-                        sum += matrix[row][column];
-                    else
-                        break;
-                }
-            return sum;
-        }
 
-        public static float TestMethod(int[,] matrix)
+        public static double[,] Sum_Matrix(double[,] A, double[,] B)
         {
-            float sum = 0;
-            for (int column = 0; column < 4; column++)
-                for (int row = 0; row < 3; row++)
+            int rA = A.GetLength(0);
+            int cA = A.GetLength(1);
+            int rB = B.GetLength(0);
+            int cB = B.GetLength(1);
+
+
+
+            if (cA != rB)
+            {
+
+            }
+            else
+            {
+                double temp = 0;
+                double[,] kHasil = new double[rA, cB];
+
+                for (int i = 0; i < rA; i++)
                 {
-                    if (matrix[row,column] != 0)
-                        sum += matrix[row,column];
-                    else
-                        break;
+                    for (int j = 0; j < cB; j++)
+                    {
+                        temp = 0;
+                        for (int k = 0; k < cA; k++)
+                        {
+                            temp += A[i, k] * B[k, j];
+                        }
+                        kHasil[i, j] = temp;
+                    }
                 }
-            return sum;
+
+                return kHasil;
+            }
+
+            return new double[0, 0];
+
         }
     }
 }
