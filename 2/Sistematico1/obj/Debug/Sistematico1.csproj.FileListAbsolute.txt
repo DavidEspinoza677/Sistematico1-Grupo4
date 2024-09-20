@@ -1,0 +1,10 @@
+C:\Users\elias\source\repos\Sistematico1\Sistematico1\bin\Debug\Sistematico1.exe.config
+C:\Users\elias\source\repos\Sistematico1\Sistematico1\bin\Debug\Sistematico1.exe
+C:\Users\elias\source\repos\Sistematico1\Sistematico1\bin\Debug\Sistematico1.pdb
+C:\Users\elias\source\repos\Sistematico1\Sistematico1\obj\Debug\Sistematico1.csproj.AssemblyReference.cache
+C:\Users\elias\source\repos\Sistematico1\Sistematico1\obj\Debug\Sistematico1.Form1.resources
+C:\Users\elias\source\repos\Sistematico1\Sistematico1\obj\Debug\Sistematico1.Properties.Resources.resources
+C:\Users\elias\source\repos\Sistematico1\Sistematico1\obj\Debug\Sistematico1.csproj.GenerateResource.cache
+C:\Users\elias\source\repos\Sistematico1\Sistematico1\obj\Debug\Sistematico1.csproj.CoreCompileInputs.cache
+C:\Users\elias\source\repos\Sistematico1\Sistematico1\obj\Debug\Sistematico1.exe
+C:\Users\elias\source\repos\Sistematico1\Sistematico1\obj\Debug\Sistematico1.pdb
